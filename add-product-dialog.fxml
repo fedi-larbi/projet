@@ -1,0 +1,11 @@
+<Dialog xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+    <content>
+        <VBox alignment="CENTER">
+            <TextField fx:id="nameField" promptText="Product Name" />
+            <TextField fx:id="priceField" promptText="Product Price" />
+            <TextField fx:id="stockField" promptText="Product Stock" />
+            <TextField fx:id="imageURLField" promptText="Image URL" />
+            <Button text="Add Product" onAction="#handleAddProduct" />
+        </VBox>
+    </content>
+</Dialog>
